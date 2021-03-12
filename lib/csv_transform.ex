@@ -1,4 +1,6 @@
 defmodule CsvTransform do
+  @moduledoc false
+
   alias CSV
 
   def transform(filename, _mapping) do
